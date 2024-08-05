@@ -4,6 +4,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .rtl-font {
   /* font-family: "Quicksand", sans-serif; */
@@ -11,7 +16,7 @@
 }
 .ltr-font {
   /* font-family: "Quicksand", sans-serif; */
-  font-family: "Fustat" , sans-serif;
+  font-family: "Fustat", sans-serif;
 }
 /* 
 :root {
