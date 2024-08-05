@@ -1,0 +1,222 @@
+{
+  "accueil": {
+    "navbar": {
+      "home": "Accueil",
+      "services": "Services",
+      "adhesion": "Adhesion & Randonneé",
+      "about": "Qui Sommes-Nous",
+      "contact": "Contactez-Nous"
+    },
+    "hero-section": {
+      "title1": "QUI SOMMES-NOUS ?",
+      "title2": "ASSOCIATION MAROCAINE DE LA FORMATION ET LE CONSEIL",
+      "description": "L'Association a été créée en août 2018 dans la ville de Benslimane avec pour objectif de contribuer au développement de la communauté. Cette initiative est née de l'expérience personnelle de la présidente, qui, après avoir surmonté une maladie (heureusement avec succès), a compris l'importance de la santé mentale et son impact significatif sur la santé physique. Inspirée par cette prise de conscience, elle a collaboré avec des professeurs et des formateurs pour concrétiser cette idée et mettre en œuvre des actions en faveur de la santé et du bien-être communautaire.",
+      "button": "Lire Plus"
+    },
+    "NewsAndEvents": {
+      "title1": "NOS DERNIÈRES ACTUALITÉS",
+      "title2": "NOS ÉVÉNEMENTS",
+      "button": "Lire Plus",
+      "event1": "NOS PROGRAMMES",
+      "event2": "MEDIA ET COMMUNICATION",
+      "savoir": "Savoir Plus"
+    }
+  },
+
+  "qui_sommes_nous": {
+    "title": "QUI SOMMES-NOUS ?",
+    "association_name": "ASSOCIATION MAROCAINE DE LA FORMATION ET LE CONSEIL",
+    "description": "L'Association a été créée en août 2018 dans la ville de Benslimane avec pour objectif de contribuer au développement de la communauté. Cette initiative est née de l'expérience personnelle de la présidente, qui, après avoir surmonté une maladie (heureusement avec succès), a compris l'importance de la santé mentale et son impact significatif sur la santé physique. Inspirée par cette prise de conscience, elle a collaboré avec des professeurs et des formateurs pour concrétiser cette idée et mettre en œuvre des actions en faveur de la santé et du bien-être communautaire."
+  },
+  "but_et_repercussions": {
+    "title": "BUT ET RÉPERCUSSIONS DE L'ASSOCIATION :",
+    "objectives": {
+      "li1": "Diffuser la culture du développement des capacités et des compétences",
+      "li2": "Renforcer le système immunitaire psychologique et ainsi maintenir la santé physique",
+      "li3": "Renforcer les capacités des étudiants à se concentrer et à atteindre l'excellence académique",
+      "li4": "Formation et préparation au métier de coach en développement personnel et de médiateur familial",
+      "li5": "Contribution dans le domaine de l'éducation, de la santé mentale et de l'emploi"
+    }
+  },
+  "comite_de_gestion": {
+    "title": "COMITÉ DE GESTION",
+    "presidente": {
+      "nom": "MME MINA KHASOUMI LA PRÉSIDENTE :",
+      "formation": "Formation de diplômés universitaires en économie, 1993. Formation professionnelle en administration et comptabilité 1995. 13 ans d'expérience en tant qu'encadrement financier chez SCIF. Formation aux compétences de coaching, de conseil familial et formation de formateurs à l'ACCHD. Formations avec des formateurs internationaux tels qu'Ahmed Emara, Abu-Saad, Muhammad Ali Youssef, Ghadha Essamni et d'autres. Consultante familiale en ligne - coaching familial, éducatif, scolaire et professionnel - conférencière et animatrice de cours de développement personnel. Master en Philosophie de la Société à la Faculté des Lettres et Services Humaines Benmsik Casa."
+    },
+    "vice_presidente": {
+      "nom": "MME KHADIJA AFDAL LA VICE-PRÉSIDENTE :",
+      "formation": "Licence en langue arabe à la Faculté de Langue Arabe à Marrakech en 1995. Elle a travaillé comme professeur de langue arabe au collège, actuellement elle occupe le poste de surveillant générale au collège. Elle a participé à des cours spéciaux de développement personnel, notamment avec le CHHD, l'un des plus importants de ces cours : formation de formateurs, santé mentale, conseil familial."
+    }
+  },
+  "adhesion": {
+    "title": "ADHÉSION",
+    "avantages": {
+      "title": "AVANTAGES DE L'ADHÉSION À L'ÉQUILIBRE",
+      "benefit1": "Participation à 10 formations d'une demi-journée",
+      "benefit2": "50% de réduction à partir de 3 formations d'une journée",
+      "benefit3": "30% de réduction sur 1 cours spécialisé"
+    },
+    "documents": {
+      "title": "DOCUMENTS D'ADHÉSION",
+      "document1": "Une copie de la carte d'identité",
+      "document2": "Deux photos",
+      "document3": "Un reçu de dépôt de 200 dirhams sur le compte de l'association"
+    }
+  },
+  "randonnée": {
+    "place": "BENSLIMANE",
+    "price": "140 DH",
+    "button": "Réservez Votre Place Maintenant"
+  },
+  "services": {
+    "all": {
+      "title": "QUELS SONT NOS PROGRAMMES ?",
+      "description": "Notre association met en œuvre divers programmes visant à améliorer le bien-être et le développement de la communauté. Voici quelques exemples de nos initiatives principales :",
+      "service1": {
+        "title": "Orientation psychologique, pédagogique et professionnelle",
+        "imgSrc": "/icons/1.jpg"
+      },
+      "service2": {
+        "title": "Formations collectives internes et externes à l'association",
+        "imgSrc": "/icons/2.jpg"
+      },
+      "service3": {
+        "title": "Organisation de démonstrations et de concours dans le domaine du développement humain",
+        "imgSrc": "/icons/3.jpg"
+      },
+      "service4": {
+        "title": "Organisation de voyages et randonnées et refaire le plein d'énergie",
+        "imgSrc": "/icons/4.jpg"
+      },
+      "service5": {
+        "title": "Formation pour les personnes ayant des besoins spéciaux et soutien psychologique pour leurs familles",
+        "imgSrc": "/icons/5.jpg"
+      }
+    },
+    "newsData": {
+      "1": {
+        "date": "25 Octobre 2018",
+        "event": "Un cours avec les mères intitulé Difficultés d'apprentissage",
+        "description": "Ce cours, intitulé 'Difficultés d'apprentissage', est spécialement conçu pour les mères souhaitant mieux comprendre et soutenir leurs enfants confrontés à des défis académiques. Il aborde les différentes causes des difficultés d'apprentissage, propose des stratégies pratiques pour aider les enfants à surmonter ces obstacles et offre des conseils pour collaborer efficacement avec les enseignants et les professionnels de l'éducation. En participant à ce cours, les mères acquièrent des connaissances précieuses et des outils concrets pour accompagner leurs enfants vers la réussite scolaire et leur épanouissement personnel.",
+        "image": "/newsImages/1.jpg"
+      },
+      "2": {
+        "date": "28 Octobre",
+        "event": "Une soirée de formation sur le secret de compatibilité conjugale",
+        "description": "Cette soirée de formation, intitulée 'Le Secret de la Compatibilité Conjugale', est dédiée aux couples souhaitant approfondir leur compréhension mutuelle et renforcer leur relation. Au cours de cette session, les participants découvriront les principes fondamentaux de la compatibilité conjugale, apprendront des techniques de communication efficace, et exploreront des méthodes pour gérer les conflits de manière constructive. Animée par des experts en relations de couple, cette formation offre des outils pratiques et des conseils avisés pour bâtir une union harmonieuse et durable, favorisant ainsi un épanouissement conjoint.",
+        "image": "/newsImages/2.jpg"
+      },
+      "3": {
+        "date": "30 Octobre",
+        "event": "Formation sur Comment gérer nos stresse offerte aux étudiant(e)s de lycée Hassan II",
+        "description": "Cette formation, intitulée 'Comment gérer notre stress', est offerte aux élèves du lycée Hassan II pour les aider à mieux comprendre et gérer le stress dans leur vie quotidienne. Le programme aborde les différentes sources de stress chez les adolescents, propose des techniques de relaxation et de gestion du temps, et offre des stratégies pour maintenir un équilibre entre les études et les loisirs. Animée par des professionnels de la santé mentale, cette formation vise à fournir aux élèves des outils pratiques pour réduire leur stress, améliorer leur bien-être et renforcer leur résilience face aux défis scolaires et personnels.",
+        "image": "/newsImages/3.jpg"
+      },
+      "4": {
+        "date": "31 Octobre",
+        "event": "Formation sur la compatibilité dans le marriage, en partenariat entre l'Association Nour Al-Maarifa et l'Académie de Formation Benslimane, Dirigé par le Dr Sekka",
+        "description": "Cette formation, axée sur la compatibilité dans le mariage, est organisée en partenariat entre l'Association Nour Al-Maarifa et l'Académie de Formation Benslimane, sous la direction du Dr Sekka. Elle explore les éléments clés pour une relation conjugale harmonieuse, incluant la communication, la gestion des conflits et les attentes réciproques. Les participants bénéficieront des connaissances approfondies du Dr Sekka et des approches pratiques pour renforcer leur relation de couple. Ce programme vise à fournir des outils essentiels pour construire et maintenir une union équilibrée et épanouissante.",
+        "image": "/newsImages/4.jpg"
+      },
+      "5": {
+        "date": "16 Novembre 2018",
+        "event": "Formation des mères ,comment élever et traiter les enfants autistes à Mohammedia",
+        "description": "Cette formation, organisée à Mohammedia, est spécialement conçue pour les mères qui souhaitent apprendre à élever et traiter les enfants autistes. Le programme couvre les aspects fondamentaux de l'autisme, offre des stratégies pratiques pour la gestion des comportements, et propose des techniques adaptées pour soutenir le développement des enfants. Animée par des experts en psychologie et en éducation spécialisée, cette formation vise à fournir aux mères des outils efficaces pour mieux comprendre les besoins spécifiques de leurs enfants et améliorer leur qualité de vie ainsi que leur bien-être émotionnel.",
+        "image": "/newsImages/5.jpg"
+      },
+      "6": {
+        "date": "20 Novembre 2018",
+        "event": "Formation à la Maison de Culture Benslimane",
+        "description": "Cette formation, se déroulant à la Maison de Culture de Benslimane, offre aux participants une opportunité enrichissante d'acquérir des compétences variées dans un cadre culturel dynamique. Le programme aborde des thématiques diverses, telles que le développement personnel, les arts, et les compétences professionnelles, en mettant l'accent sur des approches pratiques et interactives. Grâce à des intervenants qualifiés, les participants bénéficient d'une formation de qualité, favorisant l'apprentissage et la créativité dans un environnement stimulant et inspirant.",
+        "image": "/newsImages/6.jpg"
+      },
+      "7": {
+        "date": "19 Décembre 2018",
+        "event": "Sensibilisation sur les dangers de l'addiction, de la toxicomanie et de la violence scolaire au Lycée Hassan II",
+        "description": "L'association a eu le plaisir d'être invitée à animer une activité pédagogique de sensibilisation sur les dangers de l'addiction, de la toxicomanie, et de la violence scolaire sous ses diverses formes, au sein du Lycée Hassan II. Cet événement, marqué par la présence des cadres de la Direction Régionale et de la Direction de la Sûreté Nationale à Benslimane, a suscité un grand intérêt et une forte interaction de la part des élèves. Les interventions ont permis de sensibiliser les étudiants aux risques et aux conséquences de ces problématiques, tout en favorisant un dialogue constructif et des échanges enrichissants.",
+        "image": "/newsImages/7.jpg"
+      },
+      "8": {
+        "date": "02 Janvier 2019",
+        "event": "Formation vers un changement d'habitudes dans la ville de Benslimane",
+        "description": "Cette formation, intitulée 'Vers un Changement d'Habitudes', se tient dans la ville de Benslimane et vise à aider les participants à adopter des comportements plus sains et positifs. Le programme aborde des stratégies pratiques pour modifier les habitudes quotidiennes, telles que l'alimentation, l'exercice physique, et la gestion du stress. Animée par des experts en développement personnel et en santé, cette formation offre des outils et des conseils pour instaurer des changements durables, améliorer la qualité de vie et atteindre un bien-être général. Les participants sont encouragés à réfléchir à leurs habitudes actuelles et à mettre en place des actions concrètes pour transformer leur mode de vie.",
+        "image": "/newsImages/8.png"
+      },
+      "9": {
+        "date": "16 Janvier 2019",
+        "event": "Formation distinguée sur le renforcement du mariage",
+        "description": "Cette formation distinguée, consacrée au renforcement du mariage, est conçue pour aider les couples à approfondir leur relation et à solidifier leur union. Le programme couvre divers aspects essentiels du mariage, tels que la communication, la gestion des conflits, et la compréhension mutuelle. Grâce à des interventions de professionnels expérimentés, les participants acquièrent des compétences pratiques et des stratégies pour renforcer leur partenariat. L'objectif est de favoriser une relation plus harmonieuse et épanouissante, en offrant des outils adaptés pour naviguer les défis conjugaux et cultiver un amour durable.",
+        "image": "/newsImages/9.png"
+      },
+      "10": {
+        "date": "21 Janvier 2019",
+        "event": "La Joie de l'Intégration",
+        "description": "« La Joie de l'Intégration » est le titre de l'intervention de l'association Nour Al-Maarifa lors de la cérémonie célébrée le 1er mars. Cette intervention a été au cœur d'une magnifique cérémonie organisée par l'association pour promouvoir les valeurs d'inclusion et d'intégration. L'événement a souligné l'importance de l'unité et de la diversité, offrant aux participants une occasion précieuse de réfléchir sur les bienfaits de l'intégration dans la communauté. Par des discours inspirants et des activités enrichissantes, l'association a mis en lumière les succès et les défis liés à l'intégration, tout en célébrant les progrès réalisés et les aspirations futures.",
+        "image": "/newsImages/10.png"
+      },
+      "11": {
+        "date": "3 Avril 2019",
+        "event": "Intervention de l'association Nour Al-Maarifa à l'occasion de la Journée mondiale de l'autisme",
+        "description": "Lors de la Journée mondiale de l'autisme, l’association Nour Al-Maarifa a eu l'honneur de s'exprimer à l'invitation de l'Association Al-Hassaniya pour l'intégration des enfants autistes. L'événement s'est tenu à la Maison des Jeunes à Mohammedia. Dans son intervention, l'association a souligné l'importance de sensibiliser la communauté aux défis uniques rencontrés par les enfants autistes. L'extrait a mis en lumière les efforts continus pour promouvoir une meilleure compréhension et une inclusion plus effective. L'accent a été mis sur la nécessité de soutien et de ressources adaptées pour améliorer la qualité de vie des enfants autistes et de leurs familles, tout en renforçant la solidarité et l'engagement communautaire.",
+        "image": "/newsImages/11.png"
+      }
+    }
+  },
+  "contact-us": {
+    "header": {
+      "title": "Contactez-nous",
+      "subtitle": "Nous aimerions beaucoup avoir de vos nouvelles"
+    },
+    "contact-info": {
+      "title": "Pour vous aider",
+      "subtitle": "N'hésitez pas à nous contacter pour plus d'informations",
+      "address": "Maroc - Benslimane",
+      "email": "jawharetmasifa@gmail.com",
+      "tele": "+212 656-151-89"
+    },
+    "contact-form": {
+      "first-name": "Prénom",
+      "last-name": "Nom",
+      "email": "Email Address",
+      "message": "Message...",
+      "send-btn": "Send Message",
+      "loadign": "Envoi de l'email en cours...",
+      "success-msg": "Votre message a été envoyé avec succès !"
+    }
+  },
+  "footer": {
+    "one": {
+      "title": "A propos",
+      "content": "L'Association Marocaine de la Formation et le Conseil est une Organisation à but non lucratif crée en 2018"
+    },
+    "tow": {
+      "title": "Liens utiles",
+      "links": {
+        "text1": "Qui sommes-nous ?",
+
+        "text2": "Nos Programmes",
+
+        "text3": "Nos Actualités",
+
+        "text4": "Contact"
+      }
+    },
+    "three": {
+      "title": "Suivez-nous",
+      "pageName": "Nour el Maarifa",
+      "followers": "4.7K followers",
+      "button": {
+        "text": "Suivre la Page"
+      }
+    },
+    "four": {
+      "title": "Contactez-nous",
+      "address": "213 Avenue Moulay Youssef Benslimane",
+      "phone": "+212 680211003"
+    },
+    "bottomText": {
+      "content": "© 2024 - Association Marocaine de la Formation et le Conseil (AMFC)"
+    }
+  }
+}
