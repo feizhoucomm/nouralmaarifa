@@ -8,6 +8,13 @@ import Link from "next/link";
 function Randonnée() {
   const t = useTranslations("randonnée");
   const { locale } = useParams();
+  let randonées = [];
+  for (let i = 1; i <= 4; i++) {
+    randonées.push({
+      place: t(`${i}.place`),
+      price: t(`${i}.price`),
+    });
+  }
 
   return (
     <>
@@ -15,7 +22,7 @@ function Randonnée() {
       <div className="w-3/4 bg-white p-6 rounded-lg shadow-md mb-4">
         <h2 className="text-xl text-bgSecondary font-bold mb-4">RANDONNÉE</h2>
         <div className="grid grid-cols-2 gap-4">
-          {[1, 2].map((i) => (
+          {randonées.map((ran) => (
             <Link
               href={`/${locale}/contact`}
               className="group rounded-lg relative block bg-black"
@@ -28,11 +35,11 @@ function Randonnée() {
 
               <div className="relative p-4 sm:p-6 lg:p-8 rounded-lg">
                 <h3 className="text-lg uppercase tracking-widest font-semibold text-[#f8d006]">
-                  {t("place")}
+                  {ran.place}
                 </h3>
 
                 <p className="text-xl font-bold text-white sm:text-2xl">
-                  {t("price")}
+                  {ran.price}
                 </p>
 
                 <div className="mt-32 sm:mt-48 lg:mt-64">

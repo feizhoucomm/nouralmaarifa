@@ -65,9 +65,23 @@
     }
   },
   "randonnée": {
-    "place": "BENSLIMANE",
-    "price": "140 DH",
-    "button": "Réservez Votre Place Maintenant"
+    "1": {
+      "place": "Aïn Dakhlia Benslimane",
+      "price": "140 dirhams"
+    },
+    "2": {
+      "place": "Oued Aikem Skhirat",
+      "price": "140 dirhams"
+    },
+    "3": {
+      "place": "Dayet El Oued El Malah Benslimane",
+      "price": "140 dirhams"
+    },
+    "4": {
+      "place": "Aïn El Kasb Benslimane",
+      "price": "140 dirhams"
+    },
+    "button": "Réservez votre place maintenant"
   },
   "services": {
     "all": {
