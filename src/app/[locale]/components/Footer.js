@@ -63,7 +63,7 @@ const Footer = ({ params }) => {
             </div>
 
             {/* Contactez-nous */}
-            <div className="bg-red-300 flex flex-col justify-start items-start">
+            <div className="flex flex-col justify-start items-start">
               <h2 className="text-xl font-bold mb-4">{t("four.title")}</h2>
               <p className="mb-2">{t("four.address")}</p>
               <p className="mb-2" dir="ltr">{t("four.phone")}</p>
