@@ -8,7 +8,6 @@ function AdhRanPage() {
       <div className="flex flex-col justify-between items-center p-8 bg-hero-pattern">
         <Adhesion />
         <Randonnée />
-
       </div>
     </>
   );
