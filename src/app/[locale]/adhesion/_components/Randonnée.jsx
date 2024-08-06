@@ -24,8 +24,9 @@ function Randonnée() {
         <div className="grid grid-cols-2 gap-4">
           {randonées.map((ran) => (
             <Link
-              href={`/${locale}/contact`}
+              href="https://wa.me/+212668962299"
               className="group rounded-lg relative block bg-black"
+              target="_blank"
             >
               <img
                 alt=""

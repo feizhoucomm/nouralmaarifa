@@ -41,6 +41,7 @@ const Navbar = ({ params }) => {
             href="https://www.facebook.com/psycomina"
             className="group transition-all duration-200"
             target="_blank"
+            rel="social-media"
           >
             <Facebook
               size={26}

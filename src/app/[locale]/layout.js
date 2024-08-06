@@ -15,7 +15,7 @@ export const metadata = {
   title: "Nour Al Maarifa",
   description: "Association Marocaine de la Formation et le Conseil",
   keywords:
-    "accueil, services, adhésion, randonnée, santé mentale, bien-être communautaire, développement de la communauté",
+    "association, coaching, formation, randonnée, santé mentale, bien-être communautaire, développement de la communauté",
 };
 
 // export default function RootLayout({ children, params }) {
