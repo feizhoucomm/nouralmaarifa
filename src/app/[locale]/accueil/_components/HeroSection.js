@@ -1,77 +1,31 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import Image from "next/image";
-// import fram1 from "../../../../../public/images/Frame 1.png";
-// import fram2 from "../../../../../public/images/Frame 2.jpg";
-// import fram3 from "../../../../../public/images/Frame 3.jpg";
-// import fram4 from "../../../../../public/images/Frame 4.jpg";
+import React from "react";
 import Link from "next/link";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 
 const HeroSection = () => {
   const t = useTranslations("accueil.hero-section");
-  // const [currentSlide, setCurrentSlide] = useState(0);
-  // const slides = [fram1, fram2, fram3, fram4];
+
   const { locale } = useParams();
-
-  // const nextSlide = () => {
-  //   setCurrentSlide((prev) => (prev + 1) % slides.length);
-  // };
-
-  // const prevSlide = () => {
-  //   setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  // };
-
-  // // Auto-sliding functionality
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     nextSlide();
-  //   }, 3000); // Change slide every 5 seconds
-
-  //   return () => clearInterval(interval); // Cleanup on component unmount
-  // }, []);
-  console.log(locale);
 
   return (
     <div className="w-full">
-      {/* Carousel */}
-      {/* <div className="relative h-64 md:h-96 overflow-hidden">
-        {slides.map((slide, index) => (
-          <Image
-            key={index}
-            src={slide}
-            alt={`Slide ${index + 1}`}
-            className={`absolute w-full h-full object-cover transition-opacity duration-500 ${
-              index === currentSlide ? "opacity-100" : "opacity-0"
-            }`}
-          />
-        ))}
-        <button
-          onClick={prevSlide}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
-        >
-          <ChevronLeft size={24} />
-        </button>
-        <button
-          onClick={nextSlide}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full"
-        >
-          <ChevronRight size={24} />
-        </button>
-      </div> */}
       <section>
-        <div className="mx-auto max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
+        <div className="mx-auto max-w-screen-2xl px-4 py-6 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:h-[80vh] lg:grid-cols-2">
             <div className="relative z-10 lg:py-16">
-              <div className="relative h-64 sm:h-80 lg:h-full">
-                <img
-                  alt=""
-                  src="https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-                  className="absolute inset-0 h-full w-full object-cover"
-                />
+              {/* <div className="bg-red-500 translate-x-1 translate-y-1 top-3 absolute"></div> */}
+
+              <div className="relative h-64 sm:h-80 lg:h-fit rounded-lg">
+                <video
+                  class="absolute inset-0 top-5 h-fit w-full object-cover rounded-lg"
+                  controls
+                >
+                  <source src="/video/vid.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
 
@@ -92,7 +46,7 @@ const HeroSection = () => {
                 </p>
                 <Link
                   href={`/${locale}/about`}
-                  className="mt-8 inline-block rounded border border-bgSecondary bg-bgSecondary px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
+                  className="mt-8 inline-block rounded border border-bgSecondary bg-bgSecondary px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-bgSecondary focus:outline-none focus:ring active:text-bgSecondary"
                 >
                   {t("button")}
                 </Link>

@@ -112,7 +112,7 @@ const Navbar = ({ params }) => {
 
         {isMobileMenuOpen && (
           <div className="md:hidden">
-            <div className="container bg-blue-400 text-gray-900 p-4 font-semibold mx-auto flex flex-col gap-2 items-center">
+            <div className="container bg-hero-pattern text-gray-900 p-4 font-semibold mx-auto flex flex-col gap-2 items-center">
               <Link
                 href={`/${locale}/accueil`}
                 className="hover:underline hover:text-bgSecondary hover:scale-110 transition-all duration-300"

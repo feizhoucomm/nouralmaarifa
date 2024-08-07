@@ -1,6 +1,8 @@
 "use client";
 import { useTranslations } from "next-intl";
 import React, { useState } from "react";
+import formBg from './../../../../../public/images/FormBg.png'
+import Image from "next/image";
 
 const ContactForm = () => {
   const [result, setResult] = useState(""); // Moved inside the component
@@ -46,9 +48,11 @@ const ContactForm = () => {
     <div className="bg-blue-50 py-12">
       <div className="container mx-auto px-4 flex flex-wrap items-center">
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
-          <img
-            src="images\FormBg.png"
+          <Image
+            src={formBg}
             alt="Contact"
+            width={500}
+            height={266}
             className="w-full h-64 object-cover rounded-lg"
           />
         </div>
@@ -89,7 +93,7 @@ const ContactForm = () => {
             <button
               type="submit"
               disabled={result!=""}
-              className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300"
+              className="w-full bg-bgPrimary text-white py-2 px-4 rounded hover:bg-bgPrimary transition duration-300"
             >
               {result ? result : t("send-btn")}
             </button>
