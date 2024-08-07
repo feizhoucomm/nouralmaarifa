@@ -1,15 +1,9 @@
 import { getLangDir } from "rtl-detect";
-import { Inter, Quicksand } from "next/font/google";
-// import { Inter, Quicksand } from "next/font/a";
 import "./globals.css";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-// import { useLocale } from "next-intl";
-// import { notFound } from "next/navigation";
-
-// const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Nour Al Maarifa",
@@ -39,9 +33,7 @@ export const metadata = {
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 
-const inter = Inter({ subsets: ["latin"] });
-
-export default async function LocaleLayout({ children, params }) {
+export default async function RootLayout({ children, params }) {
   const { locale } = params;
 
   // Providing all messages to the client
