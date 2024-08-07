@@ -1,6 +1,8 @@
 import { Goal, ShieldQuestion } from "lucide-react";
 import { useTranslations } from "next-intl";
 import React from "react";
+import QUI_SOMMES_NOUS from "../../../../../public/images/QUI SOMMES-NOUS.png";
+import Image from "next/image";
 
 const AssociationInfo = () => {
   const t = useTranslations("qui_sommes_nous");
@@ -23,9 +25,9 @@ const AssociationInfo = () => {
               </p>
             </div>
             <div className="w-full md:w-1/3 mt-4 md:mt-0 flex justify-center">
-              <img
-                src="/api/placeholder/200/200"
-                alt="Association Logo"
+              <Image
+                src={QUI_SOMMES_NOUS}
+                alt="Association "
                 className="w-48 h-48 object-contain"
               />
             </div>
