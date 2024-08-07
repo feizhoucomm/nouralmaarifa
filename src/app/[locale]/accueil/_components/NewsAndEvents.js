@@ -2,10 +2,6 @@
 import React from "react";
 import event1 from "../../../../../public/images/event1.png";
 import event2 from "../../../../../public/images/event2.png";
-import news1 from "../../../../../public/images/news1.png";
-import news2 from "../../../../../public/images/news2.png";
-import news3 from "../../../../../public/images/news3.png";
-import news4 from "../../../../../public/images/news4.png";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { BookOpenText } from "lucide-react";
@@ -49,12 +45,11 @@ const EventItem = ({ image, title }) => (
 );
 
 const NewsAndEvents = () => {
+  const { locale } = useParams();
   const t = useTranslations("services");
   const t1 = useTranslations("accueil.NewsAndEvents");
   let newsItems = [];
   for (let i = 1; i <= 4; i++) {
-    // const { event, description, image, date } = t(`newsData.${i}`);
-    // const { date } = formatRevalidate(t("newsData")[i].date);
     newsItems.push({
       event: t(`newsData.${i}.event`),
       description: t(`newsData.${i}.description`),
@@ -62,42 +57,8 @@ const NewsAndEvents = () => {
       date: t(`newsData.${i}.date`),
       id: i,
     });
-    // console.log(image);
-    // console.log("--------->", t(`newsData.${key}.event`));
   }
-  // const newsItems = [
-  //   {
-  //     date: "25 Juin 2022",
-  //     image: news1,
-  //     title:
-  //       "la 3ème rencontre régionale sous le thème : La stratégie nationale de protection sociale entre la recommandation 202 et les socles de protection sociale, quelles mesures pour la décentralisation ? Jeudi 23 juin 2022 à Errachidia",
-  //     description:
-  //       "Contexte et objectif : Aujourd'hui, la question de la généralisation de la protection sociale au Maroc est au cœur des préoccupations des politiques publiques nationales et des réformes en cours. D'un côté, la crise sanitaire liée à la pandémie de la Covid-19 a...",
-  //   },
-  //   {
-  //     date: "28 Mars 2022",
-  //     image: news2,
-  //     title:
-  //       "Semaine solidaire sous le slogan : « la tuberculose, une responsabilité commune »",
-  //     description:
-  //       "Dans le cadre de la célébration de la journée mondiale de lutte contre la tuberculose, l'Association Marocaine de Solidarité et de Développement et l'Association Chabab El Borj organisent une semaine solidaire sous le slogan « la tuberculose, une responsabilité commun...",
-  //   },
-  //   {
-  //     image: news3,
-  //     title:
-  //       "Réunion de plaidoyer ciblée - le renforcement du financement de la lutte contre la tuberculose : le financement domestique comme alternative au financement international",
-  //     description:
-  //       "La tuberculose constitue un problème majeur de santé public. Au Maroc, malgré les efforts importants déployés pour prévenir, contrôler et maitriser la tuberculose, qui fait toujours partie des principales priorités du Ministère de la Santé et de la protection sociale, e...",
-  //   },
-  //   {
-  //     date: "3 mars 2022",
-  //     image: news4,
-  //     title:
-  //       "Conférence de presse pour la présentation officielle du Manuel de Procédures simplifiées des établissements de protection sociale EPS selon la loi 65-15",
-  //     description:
-  //       "Dans le cadre de son projet intitulé « une meilleure gestion des Organisations de la Société Civile en charge des Établissements de Protection Sociale selon les socles de la Protection Sociale pour des services de qualité au profit des Personnes en Situation Difficil...",
-  //   },
-  // ];
+
 
   const eventItems = [
     { image: event1, title: t1("event1") },
@@ -112,9 +73,31 @@ const NewsAndEvents = () => {
           {newsItems.map((item, index) => (
             <NewsItem key={index} {...item} btn={t1("button")} />
           ))}
-          <a href="#" className="text-blue-600 hover:underline font-semibold">
-            {t1("savoir")}
-          </a>
+          <Link
+            className="group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-bgSecondary focus:outline-none focus:ring active:text-bgSecondary"
+            href={`/${locale}/services`}
+          >
+            <span className="absolute -end-full transition-all group-hover:end-4">
+              <svg
+                className="size-5 rtl:rotate-180"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </span>
+
+            <span className="text-sm font-medium transition-all group-hover:me-4">
+              {t1("savoir")}
+            </span>
+          </Link>
         </div>
         <div className="w-full md:w-1/3 mt-8 md:mt-0">
           <h2 className="text-2xl font-bold mb-6">{t1("title2")}</h2>
