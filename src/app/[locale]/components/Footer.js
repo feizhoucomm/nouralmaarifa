@@ -126,7 +126,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="text-center text-gray-50 py-4 text-sm bg-bgSecondary">
-        <p>{t("bottomText.content")} <Link href="https://www.feizhoucom.com" target="_blank">Feizhoucom</Link></p>
+        <p>{t("bottomText.content")} <Link className="font-bold" href="https://www.feizhoucom.com" target="_blank">Feizhoucom</Link></p>
       </div>
     </>
   );
