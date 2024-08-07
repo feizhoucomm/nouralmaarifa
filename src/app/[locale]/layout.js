@@ -10,25 +10,6 @@ export const metadata = {
   keywords:
     "association, coaching, formation, randonnée, santé mentale, bien-être communautaire, développement de la communauté",
 };
-
-// export default function RootLayout({ children, params }) {
-//   const locale = useLocale();
-//   console.log(locale);
-//   // Show a 404 error if the user requests an unknown locale
-//   if (params.locale !== locale) {
-//     notFound();
-//   }
-
-//   return (
-//     <html lang={locale}>
-//       <body className={inter.className}>
-//         <Navbar />
-//         {children}
-//         <Footer />
-//       </body>
-//     </html>
-//   );
-// }
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import Head from "next/head";
