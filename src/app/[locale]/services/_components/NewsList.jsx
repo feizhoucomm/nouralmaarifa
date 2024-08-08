@@ -7,7 +7,7 @@ import { image } from "@nextui-org/react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 
-const NewsItem = ({ date, event, description, image ,id}) => {
+const NewsItem = ({ date, event, description, image, id }) => {
   const { locale } = useParams();
   return (
     <div className="flex flex-col md:flex-row mb-8 px-4 border-b pb-4">
@@ -15,8 +15,9 @@ const NewsItem = ({ date, event, description, image ,id}) => {
         src={image}
         alt={event}
         className="w-full md:w-1/4 h-48 object-cover mb-4 md:mb-0 md:mr-4"
-        width={50}
-        height={192}
+        width={0}
+        height={0}
+        sizes="100vw"
       />
       <div className="px-2">
         <div className="flex gap-2 items-center">

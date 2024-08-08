@@ -15,9 +15,11 @@ const NewsItem = ({ date, image, title, description, btn, id }) => {
       <Image
         src={image}
         alt={title}
-        className="w-full md:w-1/3 h-48 object-cover mb-4 md:mb-0 md:mr-4"
-        width={100}
-        height={192}
+        className="w-full md:w-1/3 h-48 object-fit mb-4 md:mb-0 md:mr-4"
+        width={0}
+        height={0}
+        sizes="100vw"
+        // style={{ width: "100%", height: "auto" }}
       />
       <div className="mx-2">
         {date && <p className="text-gray-500 text-sm mb-2">{date}</p>}
