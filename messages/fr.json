@@ -67,21 +67,18 @@
   "randonnée": {
     "1": {
       "place": "Aïn Dakhlia Benslimane",
-      "price": "140 dirhams"
+      "image": "dakhla"
     },
     "2": {
       "place": "Oued Aikem Skhirat",
-      "price": "140 dirhams"
+      "image": "aikem"
     },
-    "3": {
-      "place": "Dayet El Oued El Malah Benslimane",
-      "price": "140 dirhams"
-    },
+    "3": { "place": "Randonnée Aïn El Kasab Benslimane", "image": "elkasab" },
     "4": {
-      "place": "Aïn El Kasb Benslimane",
-      "price": "140 dirhams"
+      "place": "Dayet El Oued El Malah Benslimane",
+      "image": "elmalah"
     },
-    "button": "Réservez votre place maintenant"
+    "button": "Contactez-Nous"
   },
   "services": {
     "all": {
@@ -227,7 +224,7 @@
     "four": {
       "title": "Contactez-nous",
       "address": "213 Avenue Moulay Youssef Benslimane",
-      "phone": "+212 680211003"
+      "phone": "+212 677555985"
     },
     "bottomText": {
       "content": "© 2024 - Association Nour Al Maarifa fait par "

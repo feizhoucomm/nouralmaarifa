@@ -1,12 +1,9 @@
 import Head from "next/head";
 import HomePage from "./accueil/page";
 
-export const metadata = {
-  title: "Nour Al Maarifa",
-  description: "Association Nour Al Maarifa de la Formation et le Conseil",
-  keywords:
-    "association, coaching, formation, randonnée, santé mentale, bien-être communautaire, développement de la communauté",
-};
+// export async function generateStaticParams() {
+//   return ["fr", "ar"];
+// }
 
 export default function Home() {
   return (

@@ -18,35 +18,53 @@
   /* font-family: "Quicksand", sans-serif; */
   font-family: "Fustat", sans-serif;
 }
-/* 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+/* button {
+  background-color: #fff;
+  border: 1px solid #25d366;
+  padding: 5px;
+  position: relative;
+  width: 12em;
+  height: 2.5em;
+  transition: 0.5s;
+  font-size: 17px;
+  border-radius: 0.4em;
+} */
+
+/* button p { */
+  /* top: 0.4em;
+  left: 4rem; */
+  /* margin: 0;
+  padding: 0;
+  transition: 0.5s;
+  color: #25d366;
+} */
+
+/* button svg {
+  position: absolute;
+  top: 0.6em;
+  right: 0.5em;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: 0.5s;
+  height: 1em;
+  fill: #fff;
+} */
+
+/* button:hover p {
+  left: 0.5em;
+  color: #fff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+button:hover svg {
+  opacity: 1;
+  right: 1em;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+button:hover {
+  background-color: #25d366;
+  transition: 0.5s;
 } */
 
 .scroll {

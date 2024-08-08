@@ -2,10 +2,10 @@ import React from "react";
 import AllServices from "./_components/AllServices";
 import NewsList from "./_components/NewsList";
 import { useTranslations } from "next-intl";
-// import { formatRevalidate } from "next/dist/server/lib/revalidate";
+
 
 export const metadata = {
-  title: "Nos Services - Association Marocaine de la Formation et le Conseil",
+  title: "Nos Services",
   description:
     "Découvrez nos programmes de soutien psychologique, formation, développement humain, et randonnées pour le bien-être communautaire.",
   keywords:

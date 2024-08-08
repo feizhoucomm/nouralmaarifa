@@ -35,14 +35,24 @@ const NewsItem = ({ date, image, title, description, btn, id }) => {
   );
 };
 
-const EventItem = ({ image, title }) => (
-  <div className="mb-4 relative">
-    <Image src={image} alt={title} className="w-full h-36 object-cover" />
-    <div className="absolute inset-0 bg-gray-900 bg-opacity-50 flex items-center justify-center">
-      <h3 className="text-white text-lg font-semibold text-center">{title}</h3>
+const EventItem = ({ image, title }) => {
+  const { locale } = useParams();
+  return (
+    <div className="mb-4 group relative">
+      <Link
+        href={`/${locale}`}
+        className="text-white text-lg font-semibold text-center"
+      >
+        <Image
+          src={image}
+          alt={title}
+          className="w-full h-36 object-fit transition-all"
+        />
+        <div className="absolute inset-0 group-hover:bg-gray-900 group-hover:bg-opacity-50 duration-500 flex items-center justify-center"></div>
+      </Link>
     </div>
-  </div>
-);
+  );
+};
 
 const NewsAndEvents = () => {
   const { locale } = useParams();
@@ -58,7 +68,6 @@ const NewsAndEvents = () => {
       id: i,
     });
   }
-
 
   const eventItems = [
     { image: event1, title: t1("event1") },
